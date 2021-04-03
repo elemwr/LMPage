@@ -1,22 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Linkedin } from "react-bootstrap-icons";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
+        <img src="bean.gif"></img>
+        <p>Incoming...</p>
+        <center>
+          <a href="https://www.linkedin.com/in/lmadej/">
+            <Linkedin fill="white" size={32} />
+          </a>
+        </center>
       </header>
     </div>
   );
